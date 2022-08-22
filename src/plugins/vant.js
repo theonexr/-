@@ -1,0 +1,24 @@
+import Vue from 'vue';
+import { Button } from 'vant';
+import { Tabbar, TabbarItem } from 'vant';
+import { Swipe, SwipeItem } from 'vant';
+import { NavBar } from 'vant';
+import { Search } from 'vant';
+import { Icon } from 'vant';
+import { Grid, GridItem } from 'vant';
+import { List } from 'vant';
+import { Sidebar, SidebarItem } from 'vant';
+
+Vue.use(Sidebar);
+Vue.use(SidebarItem);
+Vue.use(List);
+Vue.use(Grid);
+Vue.use(GridItem);
+Vue.use(Icon);
+Vue.use(Search);
+Vue.use(NavBar);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+Vue.use(Button);
